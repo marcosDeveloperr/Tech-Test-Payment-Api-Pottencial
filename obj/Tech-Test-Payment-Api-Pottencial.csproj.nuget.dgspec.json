@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\C#\\Tech-Test-Payment-Api-Pottencial\\Tech-Test-Payment-Api-Pottencial.csproj": {}
+    "P:\\c#\\Tech-Test-Payment-Api-Pottencial\\Tech-Test-Payment-Api-Pottencial.csproj": {}
   },
   "projects": {
-    "P:\\C#\\Tech-Test-Payment-Api-Pottencial\\Tech-Test-Payment-Api-Pottencial.csproj": {
+    "P:\\c#\\Tech-Test-Payment-Api-Pottencial\\Tech-Test-Payment-Api-Pottencial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\C#\\Tech-Test-Payment-Api-Pottencial\\Tech-Test-Payment-Api-Pottencial.csproj",
+        "projectUniqueName": "P:\\c#\\Tech-Test-Payment-Api-Pottencial\\Tech-Test-Payment-Api-Pottencial.csproj",
         "projectName": "Tech-Test-Payment-Api-Pottencial",
-        "projectPath": "P:\\C#\\Tech-Test-Payment-Api-Pottencial\\Tech-Test-Payment-Api-Pottencial.csproj",
+        "projectPath": "P:\\c#\\Tech-Test-Payment-Api-Pottencial\\Tech-Test-Payment-Api-Pottencial.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "P:\\C#\\Tech-Test-Payment-Api-Pottencial\\obj\\",
+        "outputPath": "P:\\c#\\Tech-Test-Payment-Api-Pottencial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,24 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
